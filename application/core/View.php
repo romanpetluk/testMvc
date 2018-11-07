@@ -42,5 +42,10 @@ class View {
 		exit;
 	}
 
+	public function message($status, $message) {
+		echo ($status)."\n";
+		echo ($message);
+		exit;
+	}
 
 }

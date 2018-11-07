@@ -7,7 +7,10 @@ use application\core\Controller;
 class AccountController extends Controller {
 
 	public function loginAction() {
-		//$this->view->redirect('https://google.com');
+//		if (!empty($_POST)) {
+//			$this->view->message('success', 'ERROR text');
+//			$this->view->redirect('/');
+//		}
 		$this->view->render('login page');
 	}
 
